@@ -24,9 +24,9 @@ import { createGlobalStyle } from 'styled-components'
 import axios from 'axios'
 import _ from 'lodash'
 
-type Props = {
-    
-}
+
+
+
 
 const GlobalStyle = createGlobalStyle`
     body {
@@ -40,7 +40,7 @@ function numberWithCommas(x) {
 }
 
 
-const Table = (props: Props) => {
+const Table = () => {
     
     const [product, setProduct] = useState([])
     const [filtered, setFiltered] = useState([])
