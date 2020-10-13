@@ -1,4 +1,4 @@
-//@flow
+
 import React, {useEffect, useState} from 'react'
 
 import {
@@ -22,7 +22,7 @@ import {
 } from './table.styled'
 import { createGlobalStyle } from 'styled-components'
 import axios from 'axios'
-import _ from 'lodash'
+
 
 
 
@@ -51,6 +51,7 @@ const Table = () => {
 
     const handleChange = (e) =>{
         setValue(e)
+        
     }
 
     const handleSort = (e) =>{
